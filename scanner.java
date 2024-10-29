@@ -2,7 +2,7 @@ public class ExemploScanner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite seu nome: ");
+        System.out.print("Digite su nombre: ");
         String nome = scanner.nextLine();
         System.out.print("Digite sua idade: ");
         int idade = scanner.nextInt();
