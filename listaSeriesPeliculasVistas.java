@@ -25,7 +25,15 @@ public class PrincipalConListas{
         //int numero1 = 1;
         //int numero2 = numero1; // si actualizo o cambio el valor de esta variable numero1 se actualiza 
         Pelicula p1 = peliculaDeBruno; 
+        
       }
-    }   
-  }
+    }
+
+    ArrayList<String> listaDeArtistas = new Arraylist<>();
+    listaDeArtistas.add("Penemope Cruz")
+    listaDeArtistas.add("Antonio Banderas")
+    listaDeArtistas.add("Ricardo Darin")
+
+      Collections.sort(listaDeArtistas); //biblioteca del paquete JAVALAND para ordenar por orden de los nombres
+      System.out.println("Lista de artistas ordenada" + listaDeArtistas)
 }
